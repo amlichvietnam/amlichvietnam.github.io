@@ -4,7 +4,7 @@
  */
 
 // Đổi tên cache mỗi khi file tĩnh thay đổi để người dùng cũ nhận bản mới
-const CACHE_NAME = 'amlich-v3';
+const CACHE_NAME = 'amlich-v4';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
