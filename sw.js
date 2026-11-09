@@ -3,7 +3,8 @@
  * Handles: caching, offline, push notifications
  */
 
-const CACHE_NAME = 'amlich-v2';
+// Đổi tên cache mỗi khi file tĩnh thay đổi để người dùng cũ nhận bản mới
+const CACHE_NAME = 'amlich-v3';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
@@ -13,6 +14,7 @@ const STATIC_ASSETS = [
     '/js/events-db.js',
     '/js/notification.js',
     '/js/app.js',
+    '/js/analytics.js',
     '/manifest.json',
     '/icons/icon-192.svg',
     '/icons/icon-192.png',
